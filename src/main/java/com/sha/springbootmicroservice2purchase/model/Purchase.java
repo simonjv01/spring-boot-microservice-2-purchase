@@ -1,12 +1,15 @@
 package com.sha.springbootmicroservice2purchase.model;
 
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 
 @Entity
 @Table(name = "purchase")
+@Data
 public class Purchase {
 
     @Id
